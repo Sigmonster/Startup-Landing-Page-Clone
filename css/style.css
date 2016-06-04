@@ -9,14 +9,20 @@ div {
 .top-navigation {
 	backgroud-color:#fff;
 }
-.top-navigation >.content {
-	width:970px;
-	height:70px;
+.top-navigation > .content {
+	width:100%;
+	height:4.5rem;
 	margin: 0 auto;
+	
 }
+.content > .logo {
+	margin: 0 0 0 2.5rem;
+	height: 70px;
+}
+.content > .links {
+	float: right;
 
-
-
+}
 
 
 
