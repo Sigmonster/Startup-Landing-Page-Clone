@@ -5,8 +5,9 @@ div {
     border: 1px solid Chocolate;
 }
 
+/*Navigation Section*/
 .top-navigation {
-	color:#fff;
+	backgroud-color:#fff;
 }
 .top-navigation >.content {
 	width:970px;
