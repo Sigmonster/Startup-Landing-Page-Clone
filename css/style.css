@@ -1,14 +1,13 @@
 /*just for teseting purposes while building*/
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 }
 div, .cases h2 {
 	border: 1px solid Chocolate;
 }
 .cases .devices > li {
-    width: 33.3333333%;;
-    /* styles to assist with debugging */
-    border: 1px solid Chocolate;
+	/* styles to assist with debugging */
+	border: 1px solid Chocolate;
 }
 /*Global Best Practices*/
 html {
@@ -104,12 +103,24 @@ button:hover {
     cursor: pointer;
 }
 /*cases section*/
+.cases .content {
+	margin-top:7.8rem;
+}
 .cases h2 {
-
+	font-size:2.75rem;
+	font-weight:300;
 }
+.cases .devices > ul {
+/*do I need to add something to remove the whitespace
+ on the left?*/
+	}
 .cases .devices > li {
+	list-style: none;
 	display:inline-block;
-	float: left;
+	float:left;
+	width: 33.3333333%;
 }
-
-
+.cases .devices h3 {
+	font-weight: 400;
+	font-size:1.5rem;
+}
