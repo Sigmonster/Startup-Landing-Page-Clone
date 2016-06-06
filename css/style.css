@@ -13,9 +13,15 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+/*body section*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
 /*Navigation Section*/
 .top-navigation {
-	backgroud-color:#fff;
+	background-color:#fff;
+	background-position:0 bottom;
+	width:100%;
 }
 .top-navigation .content {
 	width:46rem;
@@ -30,7 +36,7 @@ html {
 .top-navigation .links {
 	float: right;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 	color: #838994;
 	letter-spacing: 0.03em;
 	margin-top:1.7rem;
@@ -41,14 +47,41 @@ html {
 }
 .top-navigation .links .active{
 	color:#4C5058;
-	font-eight: 500;
+	font-weight: 500;
 }
 .top-navigation .links li:hover {
 	cursor: pointer;
 	color: #333333;
 }
-
-
+/*Introduction Section*/
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:45.938rem;
+	overflow:auto;
+}
+.introduction h1,
+.introduction h3 {
+	color:white;
+	text-align: center;
+	font-weight: 300;
+	width:46rem;
+	margin: 0 auto;
+}
+.introduction h1{
+	margin-top:17.5rem;
+	font-size: 3rem;
+}
+.introduction h3{
+	margin-top:1.2rem;
+	font-size:1.5rem;
+}
+.introduction .buttons {
+	color:white;
+	text-align: center;
+}
 
 
 
