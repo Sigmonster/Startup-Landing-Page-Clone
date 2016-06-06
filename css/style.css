@@ -20,7 +20,8 @@ body {
 /*Navigation Section*/
 .top-navigation {
 	background-color:#fff;
-	background-position:0 bottom;
+	background-position:center bottom;
+	position:fixed;
 	width:100%;
 }
 .top-navigation .content {
@@ -62,26 +63,41 @@ body {
 	height:45.938rem;
 	overflow:auto;
 }
+.introduction .content {
+	width:46rem;
+	text-align: center;
+	margin: 0 auto;
+}
 .introduction h1,
 .introduction h3 {
 	color:white;
-	text-align: center;
 	font-weight: 300;
-	width:46rem;
-	margin: 0 auto;
 }
 .introduction h1{
-	margin-top:17.5rem;
+	margin:17.5rem 0 0 0;
 	font-size: 3rem;
 }
 .introduction h3{
-	margin-top:1.2rem;
+	margin:1rem 0 0 0;
 	font-size:1.5rem;
 }
-.introduction .buttons {
-	color:white;
-	text-align: center;
+.introduction .buttons{
+	margin:1rem 0 0 0;
 }
-
+button {
+	width: 9.6rem;
+	color:white;
+	font-size:1.2rem;
+	background-color:#f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
 
 
