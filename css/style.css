@@ -1,9 +1,9 @@
 /*just for teseting purposes while building*/
 body {
-    background-color: LightGray;
+	background-color: LightGray;
 }
 div {
-    border: 1px solid Chocolate;
+	border: 1px solid Chocolate;
 }
 /*Global Best Practices*/
 html {
@@ -89,10 +89,10 @@ button {
 	color:white;
 	font-size:1.2rem;
 	background-color:#f15a29;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
 }
 button:hover {
     background-color: #d9400e;
