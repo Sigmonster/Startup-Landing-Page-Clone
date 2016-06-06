@@ -2,8 +2,13 @@
 body {
 	background-color: LightGray;
 }
-div {
+div, .cases h2 {
 	border: 1px solid Chocolate;
+}
+.cases .devices > li {
+    width: 33.3333333%;;
+    /* styles to assist with debugging */
+    border: 1px solid Chocolate;
 }
 /*Global Best Practices*/
 html {
@@ -28,6 +33,7 @@ body {
 	background-position:center bottom;
 	position:fixed;
 	width:100%;
+	z-index: 9999;
 }
 .top-navigation .content {
 	text-align: left;
@@ -97,6 +103,13 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
-/*
+/*cases section*/
+.cases h2 {
+
+}
+.cases .devices > li {
+	display:inline-block;
+	float: left;
+}
 
 
