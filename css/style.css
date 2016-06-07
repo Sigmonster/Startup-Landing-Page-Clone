@@ -164,6 +164,11 @@ button:hover {
 .fa-instagram{
 	color:#3f729b;
 }
+.icons li:hover {
+	cursor: pointer;
+	border:1px solid #838994;
+	background-color:#FAFAFA;
+}
 .social .copy{
 	font-size:.9rem;
 	font-weight: 300;
