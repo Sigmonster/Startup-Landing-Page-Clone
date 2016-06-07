@@ -1,14 +1,16 @@
-/*just for teseting purposes while building*/
+/*Styles to assist with debugging*/
+/*
 body {
-	/*background-color: LightGray;*/
+	background-color: LightGray;
 }
 div, .cases h2 {
 	border: 1px solid Chocolate;
 }
 .cases .devices > li {
-	/* styles to assist with debugging */
+
 	border: 1px solid Chocolate;
 }
+*/
 /*Global Best Practices*/
 html {
 	box-sizing: border-box;
@@ -20,9 +22,13 @@ html {
 /*applies to multiple sections*/
 body {
 	font-family: 'Roboto', sans-serif;
+	vertical-align: baseline;
+}
+ul{
+	padding-left:0;
 }
 .content {
-	width:46rem;
+	width:46.5rem;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -49,7 +55,7 @@ body {
 	letter-spacing: 0.03em;
 	margin-top:1.7rem;
 }
-.top-navigation .links li {
+.top-navigation .links > li {
 	display: inline-block;
 	margin-left: 1.5em;
 }
@@ -57,7 +63,7 @@ body {
 	color:#4C5058;
 	font-weight: 500;
 }
-.top-navigation .links li:hover {
+.top-navigation .links > li:hover {
 	cursor: pointer;
 	color: #333333;
 }
@@ -112,10 +118,6 @@ button:hover {
 	font-size:2.75rem;
 	font-weight:300;
 }
-.cases .devices > ul {
-/*do I need to add something to remove the whitespace
- on the left?*/
-	}
 .cases .devices > li {
 	list-style: none;
 	display:inline-block;
@@ -125,10 +127,24 @@ button:hover {
 .cases .devices h3 {
 	font-weight: 400;
 	font-size:1.5rem;
+	margin:1.5rem 1rem 0rem 1rem;
 }
 /*footer*/
+.social hr{
+	border:0;
+	border-top:1px solid #eaebec;
+	margin:1.3rem 0;
+}
 .social {
 	padding-bottom:9.3rem;
+}
+.social h5{
+	font-weight: normal;
+	font-size:1em;
+	margin:0;
+}
+.social .icons{
+	margin:0;
 }
 .social .icons > li{
 	border-radius:1.25rem;
@@ -148,4 +164,8 @@ button:hover {
 .fa-instagram{
 	color:#3f729b;
 }
-
+.social .copy{
+	font-size:.9rem;
+	font-weight: 300;
+	color:#838994;
+}
